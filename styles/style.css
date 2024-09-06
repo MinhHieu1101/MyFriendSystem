@@ -1,0 +1,156 @@
+html, body {
+	min-height: 100%;
+	background-color: #FF8F94;
+}
+
+body, form, input, textarea, label { 
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #F2E3DB;
+	line-height: 22px;
+}
+
+h1 {
+	line-height: 45px;
+	font-size: 45px;
+	color: #F2E3DB;
+	text-align: center;
+}
+
+.frame {
+	width: 50%;
+	background: #263A29;
+	border: 5px solid #F2E3DB;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+}
+
+.frame2 {
+	width: 60%;
+	background: #263A29;
+	border: 5px solid #F2E3DB;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 40px;
+}
+
+form {
+	width: 30%;
+	padding: 40px;
+	border-radius: 6px;
+	background: #263A29;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form2 {
+	width: 50% !important;
+}
+	
+input,	textarea {
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border: 1px solid #263A29;
+	border-radius: 3px;
+	color: #263A29;
+	background-color: #F2E3DB;
+}
+	
+textarea {
+	width: 30%;
+	padding: 5px;
+}
+
+input[type="radio"] {
+	position: relative;
+	display: inline-block;
+	margin: 10px 20px 15px 0;
+}
+
+input[type="submit"], input[type="reset"] {
+	background-color: #F2E3DB;
+	color: #FF8F94;
+	border: none;
+	text-decoration: none;
+	padding: 8px 8px;
+	margin: 4px 4px;
+}
+		
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container2 {
+	display: block;
+	text-align: center;
+}
+
+.container2 p {
+	color: #FFFFFF;
+}
+
+.scissors {
+	color: #F2E3DB;
+	margin-right: 10px;
+}
+
+.line {
+	flex-grow: 1;
+	border: none;
+	border-top: 2px dashed #F2E3DB;
+	background: #FF8F94;
+}
+	
+a:link, a:visited, button {
+	background-color: #F2E3DB;
+	color: #FF8F94;
+	border: 2px solid #F2E3DB;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover, a:active, button:hover {
+	background-color: #FF8F94;
+	color: #F2E3DB;
+}
+
+.error {
+	color: #FA7070;
+	font-weight:bold;
+}
+
+.art {
+  line-height: normal !important;
+}
+
+table, td {
+  width: 50%;
+  text-align: center;
+  background: #263A29;
+  color: #F2E3DB;
+}
+
+table, td {
+  border: 3px solid #FF8F94;
+  border-collapse: collapse;
+}
+
+img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
